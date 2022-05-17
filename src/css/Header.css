@@ -1,0 +1,61 @@
+
+#sign_container{
+    display: flex;
+}
+#sign_up{
+    color: white;
+    border: 1px solid #06f;
+    background: #06f;
+    margin-right: 10px;
+}
+#log_in{
+    margin-right: 3px;
+    color: black;
+    border:none;
+    background: none;
+}
+#sign_up, #log_in{
+    font-size: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+#logo{
+    font-size: 30px;
+    margin-left: 10px;
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px solid gray;
+    color: #06f;
+}
+#search_container{
+box-shadow: inset 1px 1px 1px 1px lightgray;
+border-radius: 30px;
+padding: 5px;
+max-width: 200px;
+height: 25px;
+display: flex;
+justify-content: space-between;
+background: #f1f3f5;
+margin-right: 30%;
+}
+#search_button:focus{
+    outline: none;
+}
+#search_bar{
+border: none;
+width: 150px;
+font-size: 15px;
+background-color: #f1f3f5;
+}
+#search_bar:focus{
+  outline: none;
+}
+#search_button{
+border: none;
+background-color: #f1f3f5;
+}
